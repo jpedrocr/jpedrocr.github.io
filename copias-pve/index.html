@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>copias-pve</title>
+<style>
+:root{--fundo:#fbfaf7;--texto:#1d1d1b;--fraco:#5f5e5a;--acento:#2c4f8a}
+@media (prefers-color-scheme:dark){:root{--fundo:#161615;--texto:#ecebe6;--fraco:#a09e97;--acento:#8fb0ea}}
+body{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:680px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.6rem;margin:0 0 .5rem}h2{font-size:1.1rem;margin:2rem 0 .4rem}
+a{color:var(--acento)}.fraco{color:var(--fraco)}
+</style>
+</head>
+<body>
+<main>
+<h1>copias-pve</h1>
+<p>copias-pve is a personal backup tool. It copies encrypted backups of a home server to the
+owner's own Google Drive, so that a copy exists outside the house.</p>
+
+<h2>Who uses it</h2>
+<p>Only its owner, Pedro, on his own Google account. It is not offered to anyone else and has no
+sign-up.</p>
+
+<h2>What it does with Google Drive</h2>
+<ul>
+<li>It asks only for the <code>drive.file</code> permission: it can see and change
+<strong>only the files it created itself</strong>, in one folder. It cannot read any other file in
+the Drive.</li>
+<li>Everything it uploads is encrypted on the owner's computer before it leaves, with a key that
+Google never receives. Google stores the encrypted blocks and nothing else.</li>
+<li>It does not use the data for any other purpose, does not share it, and has no analytics,
+advertising or tracking.</li>
+</ul>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+
+<hr>
+<p lang="pt-PT" class="fraco">Em português: o copias-pve é uma ferramenta pessoal de cópias de
+segurança. Copia, já cifradas, as cópias de um servidor de casa para o Google Drive do próprio
+dono. Só pede acesso aos ficheiros que ela própria cria. <a href="privacy.html#pt">Política de
+privacidade</a>.</p>
+</main>
+</body>
+</html>
